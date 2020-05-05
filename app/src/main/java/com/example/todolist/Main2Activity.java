@@ -25,8 +25,6 @@ import com.squareup.picasso.Picasso;
 
 import java.io.InputStream;
 import java.net.URL;
-import java.text.DateFormat;
-import java.text.DateFormatSymbols;
 import java.util.Calendar;
 
 public class Main2Activity extends AppCompatActivity {
@@ -42,8 +40,10 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.calendar);
 
         background = (ImageView) findViewById(R.id.background);
-        String url = "https://upload.wikimedia.org/wikipedia/commons/9/99/Black_square.jpg";
+        String url = "https://blog-assets.hootsuite.com/wp-content/uploads/2018/04/Nyan-Cat-GIF-source.gif";
+        Picasso.with(this).setLoggingEnabled(true);
         Picasso.with(this).load(url).fit().into(background);
+        System.out.println("reached");
 
         textView = (TextView) findViewById(R.id.textView);
 
