@@ -27,7 +27,8 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.zip.Inflater;
-
+// used tutorial for creating tasks: https://www.youtube.com/watch?v=J7d1iseTV68
+// used this tutorial for displaying calendar: https://www.youtube.com/watch?v=5WVEbU_bTeg
 public class MainActivity extends AppCompatActivity {
 
     final List<String> list = new ArrayList<>();

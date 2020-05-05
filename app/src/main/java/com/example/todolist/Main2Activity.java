@@ -27,7 +27,8 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.Calendar;
 
-//test
+//used this tutorial for implementing Picasso library to display image: https://www.youtube.com/watch?v=Tdb_WSEEZbQ
+
 
 public class Main2Activity extends AppCompatActivity {
 
