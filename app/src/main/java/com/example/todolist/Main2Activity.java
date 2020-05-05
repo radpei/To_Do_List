@@ -27,6 +27,8 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.Calendar;
 
+//test
+
 public class Main2Activity extends AppCompatActivity {
 
     ImageView background;
